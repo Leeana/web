@@ -4,25 +4,25 @@ h2{
 	border: 5px solid purple;
 }
 
-img{
-	width: 200px;
-	height: 200px;
+.container{
+	width: 20%;
+	height: 20%;
 	margin-left: 20px;
 	margin-top: 20px;
 }
-
-/*img:hover{
-
-}*/
 
 #tyrian{
 	margin-left: 20px;
 	margin-top: -2px;
 }
 
-/*#tyrian:hover{
-	position: relative;
-    top: -20px; /*This will move it 20px up*/
-    /*left: 20px; /* This will move it 20px to the right*/ 
-    /*color: blue;*/
-/*}*/
+.container:hover .middle {
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  /*color: white;*/
+}
