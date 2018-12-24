@@ -1,0 +1,21 @@
+h2{
+	color: black;
+	text-align: center;
+	border: 5px solid purple;
+}
+
+img{
+	width: 200px;
+	height: 200px;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+#tyrian{
+	margin-left: 20px;
+	margin-top: -2px;
+}
+
+#tyrian:hover{
+	color: blue;
+}

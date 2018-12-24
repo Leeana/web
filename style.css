@@ -1,0 +1,14 @@
+/*Selector{
+	Property: value;
+}*/
+
+h2{
+	color: black;
+	text-align: center;
+	border: 5px solid pink;
+}
+
+body{
+	background-image: url(pink.jpg);
+	background-size: contain;
+}
