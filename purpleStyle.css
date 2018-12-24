@@ -11,11 +11,18 @@ img{
 	margin-top: 20px;
 }
 
+/*img:hover{
+
+}*/
+
 #tyrian{
 	margin-left: 20px;
 	margin-top: -2px;
 }
 
-#tyrian:hover{
-	color: blue;
-}
+/*#tyrian:hover{
+	position: relative;
+    top: -20px; /*This will move it 20px up*/
+    /*left: 20px; /* This will move it 20px to the right*/ 
+    /*color: blue;*/
+/*}*/
