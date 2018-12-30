@@ -5,17 +5,11 @@
 	height: 100%;
 }
 
-.container img 
-{
-	width: 1922px;
-	height: 928px;
-}
-
 .container .btn 
 {
 	position: absolute;
-	top: 705px;
-	left: 970px;
+	top: 970px;
+	left: 1294px;
 	transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%, -50%);
 	background-color: rgb(182, 114, 47);
@@ -29,12 +23,23 @@
 
 img
 {
-	width: 1922px;
-	height: 928px;
+	position: relative;
+	/*width: 100%;
+	max-width: 2562px;
+	height: auto;
+	max-height: 1400px;*/
+	width: 2562px;
+	height: 1288px;
 	margin-left: -10px;
 	margin-top: -10px;
 	opacity: 0.6;
 }
+
+/*.container img 
+{
+	width: auto;
+	height: auto;
+	}*/
 
 /*
 .backDoor
